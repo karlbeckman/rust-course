@@ -56,7 +56,7 @@ fn main() {
     account.deposit(120);
 
     bank.add_account(account);
-    bank.add_account(Account::new(2, String::from("Snorren 23")));
+    bank.add_account(Account::new(2, String::from("Karl Beckman 1")));
     println!("Total balance: {}", bank.total_balance());
 
     println!("{:#?}", bank.summary());
